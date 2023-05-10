@@ -26,8 +26,8 @@
 
     $finalPassword= $user->generatePassword($passwordForm);
 
-    $user->name= "Adriane";
-    $user->user= "adriane";
+    $user->name= "Teste";
+    $user->user= "teste";
     $user->password= $finalPassword;
     $user->priority= "S";
 
